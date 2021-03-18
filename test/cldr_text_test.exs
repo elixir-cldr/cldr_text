@@ -1,8 +1,5 @@
 defmodule CldrTextTest do
   use ExUnit.Case
-  doctest CldrText
+  doctest Cldr.Text
 
-  test "greets the world" do
-    assert CldrText.hello() == :world
-  end
 end
